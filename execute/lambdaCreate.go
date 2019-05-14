@@ -8,7 +8,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"./service"
+	"../service/awsService"
 
 	"fmt"
 )
@@ -60,7 +60,7 @@ func createFunction(zipFileName string, functionName string, handler string, res
 
 func main() {
 	// Lambda FunctionのListと取得する
-	lambdaListResult := lambdaList.GetLambdaList()
+	lambdaListResult := awsService.GetLambdaList()
 
 	// 作成するLambda Functionが存在しているかチェックする
 	isLambdaFunction := func(createLambdaFunctionName string) bool {
