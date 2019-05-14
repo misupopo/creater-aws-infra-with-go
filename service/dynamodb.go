@@ -1,6 +1,6 @@
 // +build example
 
-package main
+package lambdaList
 
 import (
 	"flag"

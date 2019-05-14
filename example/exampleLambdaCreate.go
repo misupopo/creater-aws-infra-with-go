@@ -20,7 +20,7 @@
    specific language governing permissions and limitations under the License.
 */
 // snippet-start:[lambda.go.create_function.complete]
-package main
+package example
 
 import (
 	"github.com/aws/aws-sdk-go/aws"
