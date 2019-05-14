@@ -1,7 +1,7 @@
-package main
+package execute
 
 import (
-	"./service/awsService"
+	"../service/awsService"
 	"fmt"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
@@ -74,4 +74,3 @@ func main() {
 
 	fmt.Println(dynamodbListResult.TableNames)
 }
-

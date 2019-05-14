@@ -7,9 +7,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/lambda"
 	"io/ioutil"
 	"os"
-
 	"../service/awsService"
-
 	"fmt"
 )
 
